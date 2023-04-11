@@ -8,7 +8,9 @@ function string(food) {
 
     }
 }
+string(food)
 console.log(food)
+
 //Write a function that takes in the following array and 
 //consoles the target if it is found else
 null
@@ -38,11 +40,11 @@ if(even )
 //“Buzz” if the numbers are divisible by 5, and “FizzBuzz” if divisible by both 3 and 5.
 
 function range(numbers) {
-    if (0 <--100 / 3) {
+    if (0 <100 / 3) {
         console.log ("fizz")
         
     }else{
-        (0 <--100 / 5)
+        (0 <100 / 5)
         console.log ("Buzz")
     }
     }
@@ -52,7 +54,7 @@ function range(numbers) {
 //Write a function that takes in an array of numbers and returns an array that has all
 //elements multiplied by 4.
 let numArray = [12,87,45,75,23,64,73]
-
+ let i = 0
 function arry(numArray){
     for (let i=0;numArray;i++){
        return numArray[i] *= 4;
@@ -66,7 +68,7 @@ arry(numArray)
 //turned into a number
 let num3 = [“10”,”24”,”45”,”56”,”67”];
 function ary(str){
-    if
+    if (str)
 
 }
 
