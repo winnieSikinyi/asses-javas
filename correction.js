@@ -200,3 +200,56 @@ function nums(number){
   }
   let Target =23;
   console.log(binaryS(sort,Target))
+
+//   Write a function that takes an array of numbers and 
+//   returns the lowest number in the array.
+function Arraynum (arry){
+   let num = arry.sort()
+   let newnum = Math.min.apply(Math,num)
+
+   console.log(newnum)
+}
+let arry = [10,12,3,1,4,5,]
+Arraynum (arry)
+//write a function that takes an array of numbers and returns 
+//the sum of all the even numbers in the array.
+function array(arriy){
+    sum = 0
+
+    for (let i = 0;i<arriy.length;i++){
+        if (arriy[i]%2===0){
+    sum += arriy[i]   
+        }
+    }
+    return sum
+}
+let arriy = [20,32,3,6,4,5,]
+console.log(array(arriy))
+//write a function that takes an array of numbers and returns 
+//all the even numbers in the array.
+function addarr(ary){
+    let fun = []
+    for (let i=0; i <ary.length;i++){
+        if (ary[i]%2===0){
+         fun.push(ary[i])
+        }
+    }
+    return fun
+}
+let ary = [16,9,3,56,80,100]
+console.log(addarr(ary))
+//write a function that takes an array of numbers and returns 
+//the  number of even numbers in the array.
+function numberOfArray(evenArray){
+    let total = 0
+    for(let i = 0;i<evenArray.length;i++){
+     if(evenArray[i]%2===0){
+        total++
+     }
+     return total
+    }
+console.log(total)
+}
+let evenArray = [16,9,3,56,80,100]
+numberOfArray(evenArray)
+
